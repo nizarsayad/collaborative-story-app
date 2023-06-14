@@ -7,18 +7,17 @@ This project is part of the professional certification Machine Learning Engineer
 ## Project Structure
 
 This project consists of several components:
-
-- `01-deep-learning`: Contains Jupyter notebooks for preprocessing the horror story data and fine-tuning the generator model.
-
-- `02-generator-endpoint`: Contains the FastAPI application for the generator model, including the Dockerfile, build script, run script, and requirements file.
-
-- `03-ranker-endpoint`: Contains the FastAPI application for the ranker model, including the Dockerfile, build script, run script, and requirements file.
-
-- `04-sentiment-endpoint`: Contains the FastAPI application for the sentiment analysis model, including the Dockerfile, build script, run script, and requirements file.
-
-- `05-story-app`: Contains the Streamlit application for the interactive story generator interface, including the Dockerfile, build script, run script, and requirements file.
-
 - `collaborative-story-app`: Contains the docker-compose file for running the entire application stack and the EC2 commands for running the app on an Amazon EC2 instance.
+
+    - `01-deep-learning`: Contains Jupyter notebooks for preprocessing the horror story data and fine-tuning the generator model.
+
+    - `02-generator-endpoint`: Contains the FastAPI application for the generator model, including the Dockerfile, build script, run script, and requirements file.
+
+    - `03-ranker-endpoint`: Contains the FastAPI application for the ranker model, including the Dockerfile, build script, run script, and requirements file.
+
+    - `04-sentiment-endpoint`: Contains the FastAPI application for the sentiment analysis model, including the Dockerfile, build script, run script, and requirements file.
+
+    - `05-story-app`: Contains the Streamlit application for the interactive story generator interface, including the Dockerfile, build script, run script, and requirements file.
 
 ## Running the Application
 
