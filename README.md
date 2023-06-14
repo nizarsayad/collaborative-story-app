@@ -1,6 +1,6 @@
 # Interactive Story Generator
 
-This project is an interactive story generator that uses the HuggingFace Transformers library integrated with PyTorch. It leverages an OpenAI's GPT model with 350M parameters as a generator, a BERT model trained for multiple choice classification tasks as a ranker, and a RoBERTa model trained on sentiment analysis tasks as a model guider. This architecture is based on this [research paper](https://www.frontiersin.org/articles/10.3389/fcomp.2021.674333/full#h10). The generator is fine-tuned on a corpus of horror stories to produce horror-themed story continuations.
+This project is an interactive story generator that uses the HuggingFace Transformers library integrated with PyTorch. It leverages an OPT model with 350M parameters as a generator, a BERT model trained for multiple choice classification tasks as a ranker, and a RoBERTa model trained on sentiment analysis tasks as a model guider. This architecture is based on this [research paper](https://www.frontiersin.org/articles/10.3389/fcomp.2021.674333/full#h10). The generator is fine-tuned on a corpus of horror stories to produce horror-themed story continuations.
 
 This project is part of the professional certification Machine Learning Engineer (Concepteur Développeur en Science des données) and represents bloc 6 of the certification titled: "Lead a Data Project".
 
