@@ -18,7 +18,7 @@ This project consists of several components:
 
 - `05-story-app`: Contains the Streamlit application for the interactive story generator interface, including the Dockerfile, build script, run script, and requirements file.
 
-- `branching-story-app`: Contains the docker-compose file for running the entire application stack and the EC2 commands for running the app on an Amazon EC2 instance.
+- `collaborative-story-app`: Contains the docker-compose file for running the entire application stack and the EC2 commands for running the app on an Amazon EC2 instance.
 
 ## Running the Application
 
