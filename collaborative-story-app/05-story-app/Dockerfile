@@ -21,5 +21,5 @@ COPY . /home/app
 EXPOSE 80
 
 # Run app.py when the container launches
-CMD uvicorn app:app --host 0.0.0.0 --port 80 --reload --log-level debug
+CMD streamlit run --server.port 80 app.py
 
