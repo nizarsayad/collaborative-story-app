@@ -1,3 +1,4 @@
+# Install docker and docker-compose on EC2 instance
 sudo yum update -y
 sudo yum install docker -y
 echo -e "sudo service docker start" >> .bashrc
@@ -7,6 +8,7 @@ sudo yum install git -y
 touch docker-compose.yaml
 vi docker-compose.yaml
 # copy paste your local docker-compose.yaml file
+# install docker-compose
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.18.1/docker-compose-linux-aarch64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
