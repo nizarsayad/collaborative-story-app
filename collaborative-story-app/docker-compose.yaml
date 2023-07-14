@@ -1,5 +1,8 @@
 version: '3'
-
+# Since the apis are not exposed to the outside world, we don't need to expose the ports
+# However, if you want to test the apis, you can uncomment the ports and the volumes
+# and then you can access the apis from localhost:8001, localhost:8002, localhost:8003
+# The streamlit app is exposed to the outside world, so you can access it from localhost:8000
 services:
   story-gen-api:
     image: nizarsayad/fastapi_gen:latest
@@ -30,21 +33,21 @@ services:
   sentiment-api:
     image: nizarsayad/fastapi_sentiment:latest
     #ports:
-    #  - 8003:80
+    #  - 8003:80 
     #volumes:
     #  - ./04-sentiment-endpoint:/home/app
     depends_on:
       - story-gen-api
     environment:
       - TRANSFORMER_CACHE=/home/app
-    #secrets:
+    #secrets: # This is an example of how to use secrets in docker-compose
     #  - my_secrets
     restart: always
 
   streamlit-app:
     image: nizarsayad/story_webapp:latest
     ports:
-      - 80:8000
+      - 8000:80
     #volumes:
     #  - ./05-story-app:/home/app
     depends_on:
@@ -53,6 +56,7 @@ services:
       - ranking-api
     restart: always
 
+# This is an example of how to use secrets in docker-compose
 #secrets:
 #  my_secrets:
-#    file: ./secrets.txt
+#    file: ./secrets.txt 
