@@ -27,7 +27,6 @@ To run the application, navigate to the `branching-story-app` directory and run 
 docker-compose up
 
 ```
-To deploy the application on an Amazon EC2 instance, execute the commands in the ec2-commands.sh file.
 
 ## Interacting with the App
 
@@ -36,6 +35,9 @@ The application is presented through a Streamlit web app UI where the user can e
 ## Deployment
 
 The application is containerized with Docker for easy deployment and scalability, and it's designed to be deployed on an Amazon EC2 instance.
+
+To deploy the application on an Amazon EC2 instance, execute the commands in the ec2-commands.sh file.
+You need to access your EC2 instance via SSH (make sure to execute the commands in the terminal where your key-pair.pem file resides).
 
 ## Team
 
