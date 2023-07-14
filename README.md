@@ -4,6 +4,7 @@ This project is an interactive story generator that uses the HuggingFace Transfo
 
 This project is part of the professional certification Machine Learning Engineer (Concepteur Développeur en Science des données) and represents bloc 6 of the certification titled: "Lead a Data Project".
 
+The deployed application can be found [here](http://ec2-35-180-74-135.eu-west-3.compute.amazonaws.com/)
 ## Project Structure
 
 This project consists of several components:
