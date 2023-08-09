@@ -10,6 +10,8 @@ The deployed application can be found [here](http://ec2-13-38-121-134.eu-west-3.
 The slide deck of the project can be found [here](https://docs.google.com/presentation/d/1szg09ewC6zDsKlA_djPe_GvQUZgQhXgxdJKAojpxr10/edit?usp=sharing)
 
 The Presentation of our project can be found [here](https://www.youtube.com/live/16IlbCWOvUU?feature=share&t=3778)
+
+The link to the vidyard video is [here](https://share.vidyard.com/watch/TS8KG9H1ZCPNZrmRBxtVbw?)
 ## Project Structure
 
 This project consists of several components:
